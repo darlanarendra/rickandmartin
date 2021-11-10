@@ -15,7 +15,7 @@
  */
 package com.clover.rickandmartin.repository
 
-import androidx.paging.PagingSource
+
 import com.clover.rickandmartin.models.CharactersResponse
 import com.clover.rickandmartin.models.detail.CharacterDetailsResponse
 import com.clover.rickandmartin.nychome.CharactersAPIService
