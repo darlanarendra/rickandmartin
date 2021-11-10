@@ -113,7 +113,4 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version_ktx"
     implementation "org.jetbrains.kotlin:kotlin-reflect:1.5.31"
 
-
-    implementation "androidx.paging:paging-runtime:$pagingVersion"
-    implementation "androidx.paging:paging-rxjava2-ktx:$pagingVersion"
 }
