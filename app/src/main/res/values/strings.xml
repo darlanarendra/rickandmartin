@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RickAndMartin</string>
+    <string name="error_in_retrieving_data">Error in retrieving data</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error">Character details is not currently Available</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="rick_and_martin">RickAndMartin</string>
+    <string name="number_of_residents">Number of Residents</string>
+    <string name="type">Type</string>
+    <string name="name">Name</string>
+    <string name="dimension">Dimension</string>
+</resources>
