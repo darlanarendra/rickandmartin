@@ -22,7 +22,7 @@
 - Glide
 - OkHttp
 
-## Landing Screen with data from Character Details
+## Landing Screen and Details ofCharacters 
 <p align="center">
 <img alt="screen1" src="https://github.com/darlanarendra/rickandmartin/blob/main/Screenshot_1636564066.png">
 </p>
