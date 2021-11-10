@@ -21,8 +21,6 @@
 - Jetpack Navigation
 - Glide
 - OkHttp
-- 
-
 
 ## Landing Screen with data from Character Details
 <p align="center">
