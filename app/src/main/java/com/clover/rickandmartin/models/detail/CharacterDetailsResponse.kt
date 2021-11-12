@@ -12,6 +12,4 @@ data class CharacterDetailsResponse(
     val residents: List<String>,
     val type: String,
     val url: String
-): Parcelable {
-
-}
+): Parcelable

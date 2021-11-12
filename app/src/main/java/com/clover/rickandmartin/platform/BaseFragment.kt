@@ -15,6 +15,7 @@
  */
 package com.clover.rickandmartin.platform
 
+import android.content.DialogInterface
 import android.os.Bundle
 import android.util.Log
 import android.view.Gravity
@@ -49,13 +50,12 @@ abstract class BaseFragment: Fragment(), AppLogger, AlertCallBack {
 
     private var mCallBackAlertDialog: AlertDialog? = null
 
-    fun showAlert(message :Int, positiveBtnText: Int, negativeBtnText:Int
-    ) {
+    fun showAlert(message :Int, positiveBtnText: Int, negativeBtnText:Int) {
         activity?.let {
             MaterialAlertDialogBuilder(it)
                 .setMessage(message)
-                .setPositiveButton(positiveBtnText, null)
-                .setNegativeButton(negativeBtnText, null)
+                .setPositiveButton(positiveBtnText, { dialog, which ->  })
+                .setNegativeButton(negativeBtnText, { dialog, which ->  })
                 .setCancelable(true)
                 .show()
         }

@@ -49,10 +49,14 @@ import kotlin.coroutines.CoroutineContext
  */
 class CharactersHomeFragment : BaseFragment(), CoroutineScope {
     private val TAG = CharactersHomeFragment::class.java.simpleName
+
     val charactersDataUseCase: CharactersDataUseCase by inject()
+
     private var job: Job = Job()
+
     override val coroutineContext: CoroutineContext
         get() = Dispatchers.Main + job
+
     lateinit var mRecyclerViewAdapter: CharactersRecyclerViewAdapter
 
     private val mBaseViewModelFactory: BaseViewModelFactory =

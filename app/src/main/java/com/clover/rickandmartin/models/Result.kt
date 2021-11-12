@@ -16,6 +16,4 @@ data class Result(
     val status: String,
     val type: String,
     val url: String
-): Parcelable {
-
-}
+): Parcelable

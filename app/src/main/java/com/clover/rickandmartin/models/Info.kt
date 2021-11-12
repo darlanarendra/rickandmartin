@@ -9,6 +9,4 @@ data class Info(
     val next: String,
     val pages: Int
     //val prev: Any
-): Parcelable {
-
-}
+): Parcelable

@@ -70,7 +70,7 @@ class CharacterDetailsFragment : BaseFragment(), CoroutineScope {
         val character = CharacterDetailsFragmentArgs.fromBundle(requireArguments())
         val characterId = character.selectedId
         mViewModel.getCharacterDetails(characterId)
-        Glide.with(this).load(character.selectedId.image).into(binding.image);
+        Glide.with(this).load(character.selectedId.image).into(binding.image)
         return binding.root
     }
 

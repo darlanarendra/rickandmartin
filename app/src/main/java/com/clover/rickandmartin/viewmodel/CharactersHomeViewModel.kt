@@ -15,6 +15,7 @@
  */
 package com.clover.rickandmartin.viewmodel
 
+import android.util.Log
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -39,6 +40,7 @@ class CharactersHomeViewModel(
     ioDispatcher: CoroutineDispatcher,
     val charactersDataUseCase: CharactersDataUseCase
 ) : ViewModel(), KoinComponent, CharactersRecyclerViewAdapter.OnItemClickListener<Result> {
+    val TAG = CharactersHomeViewModel::class.java.simpleName
 
     var charactersResponse = MutableLiveData<LiveDataWrapper<CharactersResponse>>()
     var mSelectedId = MutableLiveData<Result>()
@@ -69,7 +71,6 @@ class CharactersHomeViewModel(
                     }
                     setLoadingVisibility(false)
                 } catch (e: Exception) {
-                    e.printStackTrace()
                     setLoadingVisibility(false)
                     charactersResponse.value = LiveDataWrapper.error(e)
                     mError.postValue(true)

@@ -7,6 +7,4 @@ import kotlinx.android.parcel.Parcelize
 data class CharactersResponse(
     val info: Info,
     val results: List<Result>
-): Parcelable {
-
-}
+): Parcelable

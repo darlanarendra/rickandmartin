@@ -64,7 +64,6 @@ class CharacterDetailsViewModel(
                     }
                     setLoadingVisibility(false)
                 } catch (e: Exception) {
-                    e.printStackTrace()
                     setLoadingVisibility(false)
                     mCharacterDetailsResponse.value = LiveDataWrapper.error(e)
                     mError.postValue(true)
