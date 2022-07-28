@@ -1,0 +1,64 @@
+{
+  "userBadgeDtos": [
+    {
+      "badgeId": "1",
+      "userBadgeId": "11",
+      "userId": 1152,
+      "imageUrl": "https://www.personalcapital.com/static/images/ace/badge/Linking_On.svg",
+      "title": "Smooth Aggregator",
+      "summary": "Hooray, you have successfully linked 5 accounts!",
+      "order": 100,
+      "isEarned": true,
+      "createdDate": "2022-07-25T20:30:48.823Z",
+      "updatedDate": "2022-07-25T20:30:48.823Z"
+    },
+   {
+      "badgeId": "2",
+      "userBadgeId": "12",
+      "userId": 1152,
+      "imageUrl": "https://www.personalcapital.com/static/images/ace/badge/Saver_Off.svg",
+      "title": "Nice Save",
+      "summary": "You spent 15% less last week than your usual amount",
+      "order": 500,
+      "isEarned": false,
+      "createdDate": "2022-07-25T20:30:48.823Z",
+      "updatedDate": "2022-07-25T20:30:48.823Z"
+    } ,
+   {
+      "badgeId": "3",
+      "userBadgeId": "12",
+      "userId": 1152,
+      "imageUrl": "https://www.personalcapital.com/static/images/ace/badge/Saver_Off.svg",
+      "title": "Nice Save",
+      "summary": "You spent 15% less last week than your usual amount",
+      "order": 500,
+      "isEarned": false,
+      "createdDate": "2022-07-25T20:30:48.823Z",
+      "updatedDate": "2022-07-25T20:30:48.823Z"
+    } ,
+   {
+      "badgeId": "4",
+      "userBadgeId": "12",
+      "userId": 1152,
+      "imageUrl": "https://www.personalcapital.com/static/images/ace/badge/Saver_Off.svg",
+      "title": "Nice Save",
+      "summary": "You spent 15% less last week than your usual amount",
+      "order": 500,
+      "isEarned": false,
+      "createdDate": "2022-07-25T20:30:48.823Z",
+      "updatedDate": "2022-07-25T20:30:48.823Z"
+    } ,
+   {
+      "badgeId": "5",
+      "userBadgeId": "12",
+      "userId": 1152,
+      "imageUrl": "https://www.personalcapital.com/static/images/ace/badge/Saver_Off.svg",
+      "title": "Nice Save",
+      "summary": "You spent 15% less last week than your usual amount",
+      "order": 500,
+      "isEarned": false,
+      "createdDate": "2022-07-25T20:30:48.823Z",
+      "updatedDate": "2022-07-25T20:30:48.823Z"
+    } 
+  ]
+}
